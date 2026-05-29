@@ -1,19 +1,37 @@
-## Flagg-quiz
+# Flagg-quiz
 
-Hva er dette?
-Jeg har laget en quiz-app der du skal gjette hvilket land et flagg tilhører. Ideen kom fra Kahoot, og jeg ville prøve å lage noe som ligner på det. Man skriver inn navnet sitt, og så får man opp flagg fra forskjellige land som man skal gjette på. Det starter enkelt med land som Norge og Frankrike, og blir vanskeligere mot slutten med land som Nepal og Maladivene.
-Hva kan appen gjøre?
+Jeg har laget en quiz der du skal gjette hvilket land et flagg tilhører. Ideen kom fra Kahoot og jeg ville prøve å lage noe lignende. Det starter enkelt med land som Norge og Frankrike og blir vanskeligere mot slutten med land som Nepal og Maladivene.
 
-Viser flaggbilder og fire svaralternativer per spørsmål
-Nedtelling på 20 sekunder per spørsmål
-Man får mer poeng jo raskere man svarer
-Leaderboard som lagrer topp 10 spillere
-Designet er inspirert av Kahoot med fargerike knapper
+## Funksjoner
 
-Teknologi jeg har brukt
+- Flaggbilder med fire svaralternativer
+- 20 sekunder per spørsmål
+- Viser riktig svar hvis du svarer feil eller tiden går ut
+- Lilla design inspirert av Kahoot
 
-HTML – strukturen på siden
-CSS – utseendet og fargene
-JavaScript – logikken, timeren, poengberegning og leaderboard
+## Teknologi
 
-Flaggbildene hentes automatisk fra flagcdn.com ved hjelp av landkoder.
+- HTML – strukturen
+- CSS – utseendet
+- JavaScript – timeren og logikken
+
+Flaggbildene hentes fra flagcdn.com med landkoder som "no" for Norge og "jp" for Japan.
+
+## Slik åpner du det
+
+Åpne index.html i nettleseren. Du trenger internett for at flaggbildene skal vises.
+
+## Refleksjonsnotat
+
+Det vanskeligste jeg synes var timeren. Jeg skjønte ikke hvorfor det startet flere timere samtidig, men det viste seg at jeg måtte stoppe den gamle med clearInterval før jeg startet en ny. 
+
+Det jeg er mest fornøyd med er at svarknappene lages automatisk med JavaScript, så jeg slipper å skrive dem manuelt i HTML for hvert spørsmål. 
+
+Jeg hadde også lyst til å legge til poeng og leaderboard men rakk ikke det.
+
+Alt i alt er jeg ganske fornøyd med det jeg fikk til. Jeg hadde planlagt å legge til poeng og leaderboard, men mistet en uke pga sykdom og rakk ikke det i tide.
+
+
+
+
+
